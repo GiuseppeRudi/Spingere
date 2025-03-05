@@ -1,4 +1,5 @@
-# .gitignore per progetti Java, Angular e PostgreSQL
+!Scripts
+query
 
 # Java
 *.class
@@ -24,11 +25,7 @@ yarn-error.log
 dist/
 build/
 
-# PostgreSQL
-*.sql
-*.pgsql
-*.db
-*.dump
+
 
 # OS files
 .DS_Store
