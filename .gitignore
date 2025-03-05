@@ -1,0 +1,42 @@
+# .gitignore per progetti Java, Angular e PostgreSQL
+
+# Java
+*.class
+*.log
+*.war
+*.ear
+*.jar
+*.db
+*.swp
+target/
+out/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Node.js / Angular
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+dist/
+build/
+
+# PostgreSQL
+*.sql
+*.pgsql
+*.db
+*.dump
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# IntelliJ specific
+*.iws
+*.ipr
